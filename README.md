@@ -32,12 +32,12 @@ Before running the application, make sure you have the following installed:
 composer install
 ```
 
-2.**Prerequisites:**
-Create a MySQL database for your application.
-Copy the .env.example file to .env and update the database configuration.
-
-
 3. **Database Setup:**
+
+
+     -Create a MySQL database for your application.
+     -Copy the .env.example file to .env and update the database configuration.
+
  ```bash
 php artisan key:generate
 ```
