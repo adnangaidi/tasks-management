@@ -36,17 +36,17 @@ composer install
 
    **NOTE**:  Create a MySQL database for your application and Copy the .env.example file to .env and update the database configuration.
 
- 1. Generate an `APP_KEY` for your app:
+ 4. Generate an `APP_KEY` for your app:
  ```bash
 php artisan key:generate
 ```
-1. Create the necessary tables in your database:
+5. Create the necessary tables in your database:
 ```bash
 php artisan migrate
 ```
 
 And your Laravel app is ready to run!
-4.**Run the Application:**
+**Run the Application:**
 ```bash
 php artisan serve
 ```
