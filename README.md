@@ -52,13 +52,3 @@ php artisan serve
 ```
 
 
-
-Usage
-Open your web browser and go to http://localhost:8000.
-Create tasks, associate them with projects, and manage your task list.
-Contributing
-Feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request.
-
-License
-This project is open-source and available under the MIT License.
-
