@@ -33,7 +33,7 @@ composer install
 ```
 
 3. **Database Setup:**
-
+    ## Prerequisites
 
      -Create a MySQL database for your application.
      -Copy the .env.example file to .env and update the database configuration.
