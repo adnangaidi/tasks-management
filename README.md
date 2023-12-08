@@ -27,18 +27,21 @@ Before running the application, make sure you have the following installed:
    ```bash
    git clone https://github.com/adnangaidi/tasks-management.git
 
-2. **Install Dependencies**:
+2. **Install Dependencies:**
+3. ```bash
 composer install
 ## Prerequisites
 Create a MySQL database for your application.
 Copy the .env.example file to .env and update the database configuration.
 
 
-3. **Database Setup**:
+3. **Database Setup:**
+   ```bash
 php artisan key:generate
+```bash
 php artisan migrate
 
-4.**Run the Application**:
+4.**Run the Application:**
 php artisan serve
 
 
